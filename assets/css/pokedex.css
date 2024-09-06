@@ -48,7 +48,8 @@
 }
 
 .pokemon .detail img {
-    max-width: 100%;
+    width: 100%;
+    max-width: 90px;
     height: 70px;
 }
 
@@ -100,7 +101,7 @@
 }
 
 .electric {
-    background-color: var(--eletric-color);
+    background-color: var(--electric-color);
 }
 
 .ice {

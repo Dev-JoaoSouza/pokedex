@@ -88,13 +88,20 @@
     text-transform: capitalize;
 }
 
+.about li:first-child {
+    display: flex;
+    align-items: flex-start;
+} 
+
 .description-card ul li span:last-child {
     font-size: 1rem;
     color: #000;
+    display: inline-block;
+    width: calc(100% - 135px);
 }
 
 .container-details .close {
-    width: 30px;
+    width: 40px;
     position: absolute;
     top: 5px;
     right: 5px;
